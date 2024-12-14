@@ -11,7 +11,7 @@ This project analyzes the **Sakila dataset**, a mock database designed for pract
    - **Insight**: "Bucket Brotherhood" is the most-rented film, with 34 total rentals. Other popular titles include "Rocketeer Mother" (33 rentals) and "Ridgemont Submarine" (32 rentals).
 
 ### 2. **What are the most popular film categories (genres) by rental count?**
-   - **Query**: [most_rentals_by_category.sql](queries/most_rentals_by_category.sql)
+   - **Query**: [most_rentals_by_genre.sql](queries/most_rentals_by_genre.sql)
    - **Insight**: Certain categories dominate the rental counts, reflecting customer preferences in the mock dataset.
 
 ### 3. **Who are the most popular actors based on total rentals?**
@@ -19,11 +19,11 @@ This project analyzes the **Sakila dataset**, a mock database designed for pract
    - **Insight**: Susan Davis is the most popular actor, with a total of 825 rentals across 33 films. This highlights the cumulative impact of top actors on rental activity.
 
 ### 4. **Which cities had the most rentals, and what are their associated countries?**
-   - **Query**: [top_cities_rentals.sql](queries/top_cities_rentals.sql)
+   - **Query**: [top_cities_by_rental.sql](queries/top_cities_by_rental.sql)
    - **Insight**: Cities like Lethbridge (Canada) and Woodridge (Australia) dominate the rental activity, showing geographic concentration.
 
 ### 5. **What was the average amount spent by all customers per month in 2005?**
-   - **Query**: [average_spent_by_month.sql](queries/average_spent_by_month.sql)
+   - **Query**: [avg_customer_spend_by_month.sql](queries/avg_customer_spend_by_month.sql)
    - **Insight**: The dataset includes only 4 months in 2005 (May to August). During this period, the average monthly spending per customer ranged from $4.17 to $4.23.
 
 ---
